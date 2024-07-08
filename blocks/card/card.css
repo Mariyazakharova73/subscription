@@ -1,0 +1,14 @@
+.card {
+	background-color: var(--bg-card);
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.card__title {
+	padding-bottom: 5px;
+	font-style: 18px;
+	color: var(--text-muted);
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid hsla(0, 0%, 100%, 0.12);
+}

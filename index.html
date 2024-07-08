@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./pages/index.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Subscription</title>
+	</head>
+	<body class="root">
+		<div class="page">
+			<header class="header">
+				<img
+					class="header__logo"
+					src="./assets/images/header-logo.svg"
+					alt="logo"
+				/>
+				<p class="header__logo-text">Music and books</p>
+			</header>
+			<main class="content">
+				<section class="promo">
+					<div class="promo__mask"></div>
+					<video autoplay muted loop playsinline class="promo__video">
+						<source src="./assets/man.mp4" type="video/mp4" />
+					</video>
+					<div class="promo__content">
+						<h1 class="promo__title">
+							Слушайте музыку и аудиокниги офлайн и без рекламы
+						</h1>
+						<p class="promo__text">
+							Первый месяц бесплатно, затем за 399 ₽ ежемесячно
+						</p>
+						<button class="promo__button button" type="button">
+							Попробовать бесплатно
+						</button>
+					</div>
+				</section>
+				<section class="basic-packages">
+					<h2 class="basic-packages__title section-title">Основные пакеты</h2>
+					<ul class="basic-packages__list">
+						<li class="basic-packages__item card">
+							<div class="basic-packages__item-badge badge"></div>
+							<h3 class="basic-packages__item-title card__title">1 месяц</h3>
+							<p class="basic-packages__item-price">
+								<span class="basic-packages__new-price">399 ₽</span>
+								<span class="basic-packages__old-price"></span>
+							</p>
+							<p class="basic-packages__item-discount"></p>
+							<button class="basic-packages__button button">Подключить</button>
+						</li>
+						<li class="basic-packages__item card">
+							<div class="basic-packages__item-badge badge"></div>
+							<h3 class="basic-packages__item-title card__title">3 месяца</h3>
+							<p class="basic-packages__item-price">
+								<span class="basic-packages__new-price"></span>
+								<span class="basic-packages__old-price"></span>
+							</p>
+							<p class="basic-packages__item-discount"></p>
+							<button class="basic-packages__button button">Подключить</button>
+						</li>
+						<li class="basic-packages__item card">
+							<div class="basic-packages__item-badge badge"></div>
+							<h3 class="basic-packages__item-title card__title">6 месяцев</h3>
+							<p class="basic-packages__item-price">
+								<span class="basic-packages__new-price"></span
+								><span class="basic-packages__old-price"></span>
+							</p>
+							<p class="basic-packages__item-discount"></p>
+							<button class="basic-packages__button button">Подключить</button>
+						</li>
+						<li class="basic-packages__item card">
+							<div class="basic-packages__item-badge badge"></div>
+							<h3 class="basic-packages__item-title card__title">12 месяцев</h3>
+							<p class="basic-packages__item-price">
+								<span class="basic-packages__new-price"></span>
+								<span class="basic-packages__old-price"></span>
+							</p>
+							<p class="basic-packages__item-discount"></p>
+							<button class="basic-packages__button button">Подключить</button>
+						</li>
+					</ul>
+				</section>
+
+				<section class="additional-packages">
+					<h2 class="additional-packages__title section-title">
+						Дополнительные пакеты
+					</h2>
+					<div class="swiper">
+						<ul class="additional-packages__list swiper-wrapper">
+							<li class="additional-packages__list-item swiper-slide card">
+								<h3 class="additional-packages__card-title card__title">
+									Эксклюзивный доступ к новым релизам
+								</h3>
+								<p class="additional-packages__description">
+									Получите доступ к новым музыкальным альбомам и аудиокнигам на
+									неделю раньше всех остальных подписчиков.
+								</p>
+								<p class="additional-packages__price">99 ₽ в месяц</p>
+								<button
+									class="button additional-packages__card-button"
+									type="button"
+								>
+									Подключить
+								</button>
+							</li>
+							<li class="additional-packages__list-item swiper-slide card">
+								<h3 class="additional-packages__card-title card__title">
+									Персонализированные плейлисты и подборки
+								</h3>
+								<p class="additional-packages__description">
+									Наслаждайтесь плейлистами и подборками аудиокниг, созданными
+									специально для вас на основе ваших предпочтений и истории
+									прослушивания.
+								</p>
+								<p class="additional-packages__price">149 ₽ в месяц</p>
+								<button
+									class="button additional-packages__card-button"
+									type="button"
+								>
+									Подключить
+								</button>
+							</li>
+							<li class="additional-packages__list-item swiper-slide card">
+								<h3 class="additional-packages__card-title card__title">
+									Без рекламы
+								</h3>
+								<p class="additional-packages__description">
+									Полностью избавьтесь от рекламы во время прослушивания музыки
+									и аудиокниг для непрерывного наслаждения.
+								</p>
+								<p class="additional-packages__price">199 ₽ в месяц.</p>
+								<button
+									class="button additional-packages__card-button"
+									type="button"
+								>
+									Подключить
+								</button>
+							</li>
+							<li class="additional-packages__list-item swiper-slide card">
+								<h3 class="additional-packages__card-title card__title">
+									Семейный доступ
+								</h3>
+								<p class="additional-packages__description">
+									Поделитесь своей подпиской с членами семьи (до 5 человек),
+									чтобы все могли наслаждаться музыкой и аудиокнигами.
+								</p>
+								<p class="additional-packages__price">299 ₽ в месяц</p>
+								<button
+									class="button additional-packages__card-button"
+									type="button"
+								>
+									Подключить
+								</button>
+							</li>
+							<li class="additional-packages__list-item swiper-slide card">
+								<h3 class="additional-packages__card-title card__title">
+									Офлайн доступ
+								</h3>
+								<p class="additional-packages__description">
+									Скачивайте музыку и аудиокниги на свои устройства и слушайте
+									их без подключения к интернету.
+								</p>
+								<p class="additional-packages__price">199 ₽ в месяц</p>
+								<button
+									class="button additional-packages__card-button"
+									type="button"
+								>
+									Подключить
+								</button>
+							</li>
+						</ul>
+					</div>
+					<div class="swiper-pagination"></div>
+					<button
+						type="button"
+						class="additional-packages__button additional-packages__button_left"
+					></button>
+					<button
+						type="button"
+						class="additional-packages__button additional-packages__button_right"
+					></button>
+				</section>
+			</main>
+			<footer></footer>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="./js/index.js"></script>
+	</body>
+</html>

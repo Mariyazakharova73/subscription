@@ -1,0 +1,28 @@
+.root {
+	--bg-color: #141414;
+	--bg-card: #2a2929;
+	--text-color: #fff;
+	--text-muted: #969a9f;
+	--accent-color: #07f;
+	--badge-color: rgb(100, 202, 63);
+	--padding: clamp(10px, -0.089rem + 3.57vw, 50px);
+
+	color: var(--text-color);
+	background-color: var(--bg-color);
+
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
